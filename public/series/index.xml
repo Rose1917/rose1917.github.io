@@ -1,0 +1,8 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Series - 系列 - 小马佩德罗</title>
+        <link>https://example.org/series/</link>
+        <description>Series - 系列 - 小马佩德罗</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>renyanjie01@gmail.com (小马佩德罗)</managingEditor>
+            <webMaster>renyanjie01@gmail.com (小马佩德罗)</webMaster><atom:link href="https://example.org/series/" rel="self" type="application/rss+xml" /></channel>
+</rss>

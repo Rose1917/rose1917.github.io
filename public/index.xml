@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>小马佩德罗</title>
+        <link>https://example.org/</link>
+        <description>小马佩德罗</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>renyanjie01@gmail.com (小马佩德罗)</managingEditor>
+            <webMaster>renyanjie01@gmail.com (小马佩德罗)</webMaster><lastBuildDate>Sun, 05 Nov 2023 14:57:53 &#43;0800</lastBuildDate>
+            <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Linux How To</title>
+    <link>https://example.org/linux-how-to/</link>
+    <pubDate>Sun, 05 Nov 2023 14:57:53 &#43;0800</pubDate><author>
+        <name>小马佩德罗</name>
+    </author><guid>https://example.org/linux-how-to/</guid>
+    <description><![CDATA[<p>主要记录Linux下常用命令的CheatSheet</p>]]></description>
+</item></channel>
+</rss>
