@@ -103,6 +103,17 @@ theme = "DoIt"
       # DoIt 删除 | 0.2.0 被 params.page 中的 hiddenFromHomePage 替代
       # 当你没有在文章前置参数中设置 "hiddenFromHomePage" 时的默认行为
       defaultHiddenFromHomePage = false
+    [params.page.comment]
+        enable = true
+        [params.page.comment.giscus]
+            # You can refer to the official documentation of giscus to use the following configuration.
+            # 你可以参考官方文档来使用下列配置
+            enable = true
+            repo = "rose1917/rose1917.github.io"
+            repoId = "xxx"
+            category = "Announcements"
+            categoryId = "DIC_kwDOKpk3Ks4CavuP"
+            mapping = "pathname"
 
   # 作者的社交信息设置
   [params.social]
