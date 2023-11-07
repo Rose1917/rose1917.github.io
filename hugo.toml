@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://rose1917.github.io/'
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN 大写
@@ -109,11 +109,37 @@ theme = "DoIt"
             # You can refer to the official documentation of giscus to use the following configuration.
             # 你可以参考官方文档来使用下列配置
             enable = true
-            repo = "rose1917/rose1917.github.io"
-            repoId = "R_kgDOKpk3Kg"
-            category = "Announcements"
-            categoryId = "DIC_kwDOKpk3Ks4CavuP"
+            dataRepo = "rose1917/rose1917.github.io"
+            dataRepoId = "R_kgDOKpk3Kg"
+            dataCategory = "Announcements"
+            dataCategoryId = "DIC_kwDOKpk3Ks4CavuP"
             mapping = "pathname"
+            dataLang = "zh-CN"
+            lightTheme = "light"
+            darkTheme = "dark"
+            dataReactionsEnabled = "1"
+            dataInputPosition = "bottom"
+
+    [params.footer]
+        enable = true
+        # DoIt 新增 | 0.2.0 自定义内容 (支持 HTML 格式)
+        custom = ''
+        # DoIt 新增 | 0.2.0 是否显示 Hugo 和主题信息
+        hugo = true
+        # DoIt 新增 | 0.2.14 托管服务信息 (支持 HTML 格式)
+        # <a title="Github Pages" href="https://docs.github.com/en/pages/" target="_blank" rel="noopener noreffer">GitHub Pages</a>
+        hostedOn = ''
+        # DoIt 新增 | 0.2.0 是否显示版权信息
+        copyright = true
+        # DoIt 新增 | 0.2.0 是否显示作者
+        author = true
+        # 网站创立年份
+        since = 2019
+        # ICP 备案信息, 仅在中国使用 (支持 HTML 格式)
+        icp = "豫ICP备2021022810号-1"
+        # 许可协议信息 (支持 HTML 格式)
+        license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
 
   # 作者的社交信息设置
   [params.social]
