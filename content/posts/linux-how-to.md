@@ -2,6 +2,7 @@
 title = 'Linux How To'
 date = 2023-11-05T14:57:53+08:00
 draft = false
+tags = ["cheatsheet"]
 +++
 
 主要记录Linux下常用命令的CheatSheet
