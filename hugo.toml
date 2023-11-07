@@ -110,7 +110,7 @@ theme = "DoIt"
             # 你可以参考官方文档来使用下列配置
             enable = true
             repo = "rose1917/rose1917.github.io"
-            repoId = "xxx"
+            repoId = "R_kgDOKpk3Kg"
             category = "Announcements"
             categoryId = "DIC_kwDOKpk3Ks4CavuP"
             mapping = "pathname"
