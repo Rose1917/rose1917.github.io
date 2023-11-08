@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,700&display=swap&subset=latin-ext');
+$code-font-family: Consolas, Monaco, monospace;
+.post-warp .post-content code,
+.post-warp .post-content pre {
+           	padding: 1px;
+    		font-size: 16px;
+                font-weight: 550;
+    		font-family: Consolas, Monaco, Menlo, Consolas, monospace;
+    		word-break: break-all;
+    		word-wrap: break-word;
+    		overflow-y: auto;
+    		max-height: 300px;
+}
