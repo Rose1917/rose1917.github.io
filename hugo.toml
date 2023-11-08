@@ -63,9 +63,9 @@ theme = "DoIt"
       # LOGO 的 URL
       logo = ""
       # 标题名称
-      name = "Pedro's Home🥳"
+      name = "cd /home/pedro/"
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = ""
+      pre = "<span style=\"color:green;\">>$</span>"
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
       # DoIt 新增 | 0.2.5 是否为标题显示打字机动画
@@ -247,7 +247,7 @@ theme = "DoIt"
       # 光标的闪烁速度 (单位是毫秒)
       cursorSpeed = 1000
       # 光标的字符 (支持 HTML 格式)
-      cursorChar = "|"
+      cursorChar = "_"
       # 打字结束之后光标的持续时间 (单位是毫秒, "-1" 代表无限大)
       duration = -1
  
