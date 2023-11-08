@@ -57,7 +57,7 @@ theme = "DoIt"
     mobileMode = "auto"
     # DoIt 新增 | 0.2.11 主题切换模式
     # 主题切换模式 ("switch", "select")
-    themeChangeMode = "select"
+    themeChangeMode = "switch"
     # DoIt 新增 | 0.2.0 页面头部导航栏标题配置
     [params.header.title]
       # LOGO 的 URL
@@ -103,6 +103,16 @@ theme = "DoIt"
       # DoIt 删除 | 0.2.0 被 params.page 中的 hiddenFromHomePage 替代
       # 当你没有在文章前置参数中设置 "hiddenFromHomePage" 时的默认行为
       defaultHiddenFromHomePage = false
+    [params.page]
+    rssFullText = true
+    # DoIt 新增 | 0.2.13 是否在文章开头显示系列导航
+    seriesNavigation = true
+    # 是否启用最后修改时间
+    enableLastMod = false
+    # 是否启用字数统计
+    enableWordCount = false
+    # 是否启用阅读时间估计
+    enableReadingTime = false
     [params.page.comment]
         enable = true
         [params.page.comment.giscus]
@@ -123,7 +133,7 @@ theme = "DoIt"
     [params.footer]
         enable = true
         # DoIt 新增 | 0.2.0 自定义内容 (支持 HTML 格式)
-        custom = '友情链接'
+        custom = ''
         # DoIt 新增 | 0.2.0 是否显示 Hugo 和主题信息
         hugo = true
         # DoIt 新增 | 0.2.14 托管服务信息 (支持 HTML 格式)
@@ -132,7 +142,7 @@ theme = "DoIt"
         # DoIt 新增 | 0.2.0 是否显示版权信息
         copyright = true
         # DoIt 新增 | 0.2.0 是否显示作者
-        author = true
+        author = false
         # 网站创立年份
         since = 2023
         # ICP 备案信息, 仅在中国使用 (支持 HTML 格式)
