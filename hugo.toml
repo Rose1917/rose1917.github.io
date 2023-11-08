@@ -255,13 +255,22 @@ theme = "DoIt"
     title = ""
     weight = 1
   [[menu.main]]
+    identifier = "series"
+    pre = ""
+    post = ""
+    name = "系列"
+    url = "/series/"
+    title = ""
+    weight = 2
+
+  [[menu.main]]
     identifier = "tags"
     pre = ""
     post = ""
     name = "标签"
     url = "/tags/"
     title = ""
-    weight = 2
+    weight = 3
   [[menu.main]]
     identifier = "categories"
     pre = ""
@@ -269,7 +278,7 @@ theme = "DoIt"
     name = "分类"
     url = "/categories/"
     title = ""
-    weight = 3
+    weight = 4
 
   [[menu.main]]
     identifier = 'about'
@@ -278,7 +287,7 @@ theme = "DoIt"
     name = "关于"
     url = "/about/"
     title = ""
-    weight = 4
+    weight = 5
     
 
 # Hugo 解析文档的配置
