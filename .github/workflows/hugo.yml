@@ -80,5 +80,5 @@ jobs:
           username: 'march1917'   #ssh user name
           server: '${{ secrets.SERVER_IP }}' #引用之前创建好的secret
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} #引用之前创建好的secret
-          local_path: './public/*'  # 对应我们项目public的文件夹路径
+          local_path: './public/*'  # 对应我们项目public的文件夹路径, local
           remote_path: '/var/www/public' # 对应云上的目录
