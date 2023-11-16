@@ -2,8 +2,11 @@
 title = 'Right Tools'
 date = 2023-11-16T15:10:20+08:00
 draft = false
-description = "Right Tools To Do The Right Things"
 +++
+
+一个记录生活小妙招和效率小工具的网站。inspired by SY.
+
+<!--more-->
 
 #### 办公💼
 ##### 通用🔧
