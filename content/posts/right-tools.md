@@ -12,6 +12,9 @@ draft = false
 ##### 通用🔧
 * PDF 编辑：PDF Expert/Acrobat DC
 
+##### Markdown✏️
+* badge写作：[shields.io](https://shields.io/badges/static-badge)&[simple-icon](https://simpleicons.org)
+
 ##### 学术
 
 
