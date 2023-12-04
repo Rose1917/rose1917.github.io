@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>cheatsheet - 标签 - 小马佩德罗</title>
+        <link>https://rose1917.github.io/tags/cheatsheet/</link>
+        <description>cheatsheet - 标签 - 小马佩德罗</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>renyanjie01@gmail.com (小马佩德罗)</managingEditor>
+            <webMaster>renyanjie01@gmail.com (小马佩德罗)</webMaster><lastBuildDate>Sun, 05 Nov 2023 14:57:53 &#43;0800</lastBuildDate><atom:link href="https://rose1917.github.io/tags/cheatsheet/" rel="self" type="application/rss+xml" /><item>
+    <title>Linux How To</title>
+    <link>https://rose1917.github.io/linux-how-to/</link>
+    <pubDate>Sun, 05 Nov 2023 14:57:53 &#43;0800</pubDate><author>
+        <name>小马佩德罗</name>
+    </author><guid>https://rose1917.github.io/linux-how-to/</guid>
+    <description><![CDATA[<p>主要记录Linux下常用命令的CheatSheet</p>]]></description>
+</item></channel>
+</rss>

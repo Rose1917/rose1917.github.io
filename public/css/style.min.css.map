@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "/Users/march1917/projects/blogs",
+	"sourceRoot": "/Users/renyanjie/projects/rose1917.github.io",
 	"sources": [
 		"themes/DoIt/assets/css/style.scss",
 		"themes/DoIt/assets/css/_variables.scss",

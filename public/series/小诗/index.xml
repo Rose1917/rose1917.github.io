@@ -1,24 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>小马佩德罗</title>
-        <link>https://rose1917.github.io/</link>
-        <description>小马佩德罗</description>
+        <title>小诗 - 系列 - 小马佩德罗</title>
+        <link>https://rose1917.github.io/series/%E5%B0%8F%E8%AF%97/</link>
+        <description>小诗 - 系列 - 小马佩德罗</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>renyanjie01@gmail.com (小马佩德罗)</managingEditor>
-            <webMaster>renyanjie01@gmail.com (小马佩德罗)</webMaster><lastBuildDate>Tue, 07 Nov 2023 14:41:49 &#43;0800</lastBuildDate>
-            <atom:link href="https://rose1917.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+            <webMaster>renyanjie01@gmail.com (小马佩德罗)</webMaster><lastBuildDate>Tue, 07 Nov 2023 14:41:49 &#43;0800</lastBuildDate><atom:link href="https://rose1917.github.io/series/%E5%B0%8F%E8%AF%97/" rel="self" type="application/rss+xml" /><item>
     <title>信仰</title>
     <link>https://rose1917.github.io/%E4%BF%A1%E4%BB%B0/</link>
     <pubDate>Tue, 07 Nov 2023 14:41:49 &#43;0800</pubDate><author>
         <name>小马佩德罗</name>
     </author><guid>https://rose1917.github.io/%E4%BF%A1%E4%BB%B0/</guid>
     <description><![CDATA[我要你立志成为一个温暖的人。 就像以前的灯泡。 不温不火 不急不躁。 从黄昏到黎明， 从邓州到南京。 我要你从早上阳光溅落的那一刻起， 咕噜一声翻身起床，]]></description>
-</item><item>
-    <title>Linux How To</title>
-    <link>https://rose1917.github.io/linux-how-to/</link>
-    <pubDate>Sun, 05 Nov 2023 14:57:53 &#43;0800</pubDate><author>
-        <name>小马佩德罗</name>
-    </author><guid>https://rose1917.github.io/linux-how-to/</guid>
-    <description><![CDATA[<p>主要记录Linux下常用命令的CheatSheet</p>]]></description>
 </item></channel>
 </rss>
