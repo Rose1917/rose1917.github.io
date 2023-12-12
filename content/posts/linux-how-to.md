@@ -533,3 +533,47 @@ p x
     * Python搜索模块的路径:`sys.path`存储模块的搜索目录，第一项是当前文件的目录。
     * 工作的路径:`getcwd`可以获取当前的工作目录，需要注意当前的工作目录和文件所在的目录没有必然关系。Python中打开文件搜索的是工作目录而非当前文件所在目录。可以使用`os.chcwd`函数来调整当前的工作目录。
 
+#### 18. Tmux
+
+##### Tmux
+Tmux提供终端复用(terminal multiplexer)的能力。
+![[Pasted image 20231208154016.png]]
+具体来说tmux为用户提供了两项能力：
+1. 在同一个终端连接内提供有多个Pane和Tab。所谓的pane，你可以认为是同一个屏幕内划分为多个区域，tab则和现代浏览器的标签一样，在tmux中也叫window。
+2. 创建多个session的能力，一个session可以保存也可以退出，不会因为SSH连接的断开而挂掉。一个任务可以被看作一个context，可以在不同的context中间切换。
+
+>为什么不直接采用多个窗口呢，毕竟像一些现代的终端其实也都提供了分屏的功能。因为在tmux中，每个终端的任务是以文件的方式存储的，不会因为连接断开就直接挂掉。在一些比较严苛的环境下，tmux也可以正常使用，这一点可以类比VIM。
+
+
+##### 创建session
+
+* 直接创建一个session: `tmux`。此时创建一个按序号命名的session，并将此session调度到台前。
+* 创建一个新的带名字的session: `tmux new -s session_name`。
+
+##### session的调度
+
+* detach: 创建一个session后，默认进入当前session(调度到前台)。如果想要退出当前的session，使用`tmux detach`. 即可从当前的session**暂时**退出，即该session被放到了后台。对应的快捷键：ctrl-b d。
+* ls: 退出当前的session后，使用`tmux ls`即可查看当前的所有的session.
+* attach: 如果想要进入某个session，使用`tmux attach -t target-session 。
+* next and previous: 如果在一个session,使用`ctrl b + (`和`ctrl b + )`切换到前一个和下一个session. 如果想看所有的session，使用`ctrl + b + s`
+##### 分屏
+* 左右拆分：**在一个tmux session内部**，ctrl-b + %。
+* 上下拆分：**在一个tmux session内部**，ctrl-b + “。
+* 在不同的屏幕内跳转：**在一个tmux session内部**，ctrl-b + \<arrow-key\>。
+* 退出一个pane: 直接执行exit/ctrl-d即可。
+* 调整当前的pane大小：ctrl/b + crtl + arrow
+
+##### Window
+tmux支持在一个session内部有多个窗口，这个功能类似于浏览器的标签。个人感觉window不是很实用，其实到session这个粒度其实已经可以了。不过我看了一下也很简单，就也记录一下。
+* 创建window: **在一个tmux session内部**，ctrl-b + c(reate)。
+* 下一个window: **在一个tmux session内部**，ctrl-b + n(ext)。
+* 上一个window: **在一个tmux session内部**，ctrl-b + p(revious)。
+* 查看所有的window: **在一个tmux session内部**，ctrl-b + w(indow)。
+
+
+>参考链接：
+>[Tmux — An awesome terminal multiplexer](https://blog.devgenius.io/tmux-an-awesome-terminal-multiplexer-62609c6916bb)
+>[Tmux Cheatsheet](https://tmuxcheatsheet.com)
+
+
+
