@@ -533,9 +533,7 @@ p x
     * Python搜索模块的路径:`sys.path`存储模块的搜索目录，第一项是当前文件的目录。
     * 工作的路径:`getcwd`可以获取当前的工作目录，需要注意当前的工作目录和文件所在的目录没有必然关系。Python中打开文件搜索的是工作目录而非当前文件所在目录。可以使用`os.chcwd`函数来调整当前的工作目录。
 
-#### 18. Tmux
-
-##### Tmux
+#### 18 Tmux
 Tmux提供终端复用(terminal multiplexer)的能力。
 ![[Pasted image 20231208154016.png]]
 具体来说tmux为用户提供了两项能力：
@@ -575,5 +573,23 @@ tmux支持在一个session内部有多个窗口，这个功能类似于浏览器
 >[Tmux — An awesome terminal multiplexer](https://blog.devgenius.io/tmux-an-awesome-terminal-multiplexer-62609c6916bb)
 >[Tmux Cheatsheet](https://tmuxcheatsheet.com)
 
+#### 19 SSH保持长链接
+系统参数中3个参数和SSH连接保持活性有关，如下所示：
+- tcp_keepalive_time：确定在空闲的TCP连接上发送TCP保活探测的时间间隔。保活探测检查远程对等端是否仍然活动和响应，即使没有数据传输。
+- tcp_keepalive_probes：由TCP端点发送的小型数据包，用于检查空闲连接中远程端点的健康和响应能力。它检测远程端点是否已变得不可访问或由于网络问题导致连接丢失。
+- tcp_keepalive_intvl：控制在空闲的TCP连接上发送保活探测的时间间隔。
 
+为了保持长链接，可以从客户端和服务端配置：
+
+##### 客户端配置
+在.ssh/config文件中写入如下的内容——
+- Host：指定的配置仅适用于跟在“Host”关键字后面列出的主机。因为我们使用了通配符\*，它们适用于所有主机。
+- ServerAliveInterval：设置一个超时间隔（以秒为单位），如果在该间隔内未从服务器收到任何数据，SSH将通过加密通道发送一条消息以请求服务器响应。默认值为0，表示不会向服务器发送这些消息。
+- ServerAliveCountMax：设置可发送的服务器活动消息数，而SSH未从服务器收到任何消息。如果在发送服务器活动消息时达到此阈值，SSH将与服务器断开连接，终止会话。默认值为3。
+
+##### 服务端配置
+在/etc/ssh/sshd_config中写入——
+- TCPKeepAlive：指定系统是否应向客户端发送 TCP 保持活动消息。(yes)
+- ClientAliveInterval：设置超时间隔（以秒为单位）。如果从客户端未收到数据，则 SSH 服务器会通过加密通道发送消息，请求客户端的响应。默认值为 0，表示不会向客户端发送这些消息。
+- ClientAliveCountMax：设置可以在没有从客户端收到任何消息的情况下发送的客户端活动消息的数量。如果在发送客户端活动消息时达到了此阈值，则 SSH 服务器将断开客户端连接，终止会话。默认值为 3。
 

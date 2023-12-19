@@ -21,3 +21,25 @@ draft = false
 #### 居家👪
 ##### 药物💊
 * 烫伤 - 美宝烫伤膏
+
+#### 娱乐🎮
+https://www.travellings.cn/go.html
+##### PT站🎬
+* 馒头PT站保号教程：利用[Hetzner](https://www.shifeiti.com/blog/2022-12-09/)盒子保号。
+
+#### 美食🍜
+
+##### 北方特色🐎
+
+
+#### 自我提升📑
+##### AI学习
+* 深度学习入门教程：动手学习[深度学习](https://zh.d2l.ai/index.html)
+
+##### CS求职💼
+* 数据结构与算法：[图解数据结构和算法](https://visualgo.net/zh)
+* 刷题：[Leetcode](https://visualgo.net/zh),[labuladong](https://labuladong.github.io/algo/)
+
+##### 英语学习💬
+* 摸鱼练习英语：[qwerty learner](https://qwerty.kaiyi.cool)
+
