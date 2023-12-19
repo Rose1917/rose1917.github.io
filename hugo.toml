@@ -298,7 +298,32 @@ theme = "DoIt"
     url = "/about/"
     title = ""
     weight = 5
-    
+  [[menu.main]]
+    identifier = 'tools'
+    pre = ""
+    post = ""
+    name = "工具"
+    url = "/tools/"
+    title = ""
+    weight = 5
+  [[menu.main]]
+    identifier = 'jupyter'
+    parent='tools'
+    pre = ""
+    post = ""
+    name = "jupyter"
+    url = "/hub/"
+    title = ""
+    weight = 5
+  [[menu.main]]
+    identifier = 'filebox'
+    parent='tools'
+    pre = ""
+    post = ""
+    name = "filebox"
+    url = "/filebox/"
+    title = ""
+    weight = 5
 
 # Hugo 解析文档的配置
 [markup]
