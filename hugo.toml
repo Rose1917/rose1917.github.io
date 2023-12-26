@@ -333,6 +333,15 @@ theme = "DoIt"
     url = "https://memes.renyanjie.cn"
     title = ""
     weight = 5
+  [[menu.main]]
+    identifier = 'rss'
+    parent='tools'
+    pre = ""
+    post = "_blank"
+    name = "rss"
+    url = "https://rss.renyanjie.cn"
+    title = ""
+    weight = 5
 
 # Hugo 解析文档的配置
 [markup]
