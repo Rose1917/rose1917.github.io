@@ -310,7 +310,7 @@ theme = "DoIt"
     identifier = 'jupyter'
     parent='tools'
     pre = ""
-    post = ""
+    post = "_blank"
     name = "jupyter"
     url = "/hub/"
     title = ""
@@ -319,9 +319,27 @@ theme = "DoIt"
     identifier = 'filebox'
     parent='tools'
     pre = ""
-    post = ""
+    post = "_blank"
     name = "filebox"
     url = "/filebox/"
+    title = ""
+    weight = 5
+  [[menu.main]]
+    identifier = 'memes'
+    parent='tools'
+    pre = ""
+    post = "_blank"
+    name = "memes"
+    url = "https://memes.renyanjie.cn"
+    title = ""
+    weight = 5
+  [[menu.main]]
+    identifier = 'rss'
+    parent='tools'
+    pre = ""
+    post = "_blank"
+    name = "rss"
+    url = "https://rss.renyanjie.cn"
     title = ""
     weight = 5
 
