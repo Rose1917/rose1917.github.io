@@ -113,6 +113,8 @@ theme = "DoIt"
     enableWordCount = false
     # 是否启用阅读时间估计
     enableReadingTime = false
+    [params.page.toc]
+        enable = true
     [params.page.comment]
         enable = true
         [params.page.comment.giscus]
