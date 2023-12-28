@@ -117,6 +117,7 @@ theme = "DoIt"
         enable = true
         # 是否使侧边目录自动折叠展开
         auto = true
+        keepStatic = false
     [params.page.comment]
         enable = true
         [params.page.comment.giscus]
