@@ -2,14 +2,10 @@
 title = 'Vim Learning'
 date = 2023-12-29T09:22:41+08:00
 draft = false
-description = 'vim 学习笔记'
+summary = 'vim 学习笔记'
 +++
 
 # VIM Learning Tutorial
-
-[TOC]
-
-
 
 #### 1. VIM AS A LANGUAGE
 
