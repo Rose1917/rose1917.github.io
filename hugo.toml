@@ -120,10 +120,19 @@ theme = "DoIt"
         keepStatic = false
     [params.page.comment]
         enable = true
+        [param]
+        [params.page.comment.twikoo]
+            enable = true
+            envId = "https://pedroren-twikoo.hf.space"
+            region = ""
+            path = ""
+            cloudbase = false # boolean : true / false. # 是否部署在腾讯云 CloudBase
+            visitor = true
+            commentCount = true
         [params.page.comment.giscus]
             # You can refer to the official documentation of giscus to use the following configuration.
             # 你可以参考官方文档来使用下列配置
-            enable = true
+            enable = false
             dataRepo = "rose1917/rose1917.github.io"
             dataRepoId = "R_kgDOKpk3Kg"
             dataCategory = "Announcements"
