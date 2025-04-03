@@ -57,6 +57,8 @@ theme = "FixIt"
     mobileMode = "auto"
     # DoIt 新增 | 0.2.11 主题切换模式
     # 主题切换模式 ("switch", "select")
+
+
     themeChangeMode = "switch"
     # DoIt 新增 | 0.2.0 页面头部导航栏标题配置
     [params.header.title]
