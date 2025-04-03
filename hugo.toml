@@ -125,7 +125,7 @@ theme = "FixIt"
         [param]
         [params.page.comment.twikoo]
             enable = true
-            envId = "https://pedroren-twikoo.hf.space"
+            envId = "https://twikoo.renyanjie.cn"
             region = ""
             path = ""
             cloudbase = false # boolean : true / false. # 是否部署在腾讯云 CloudBase
