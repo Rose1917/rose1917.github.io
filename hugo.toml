@@ -332,6 +332,15 @@ theme = "FixIt"
     title = ""
     weight = 5
   [[menu.main]]
+    identifier = 'regex'
+    parent='tools'
+    pre = ""
+    post = "_blank"
+    name = "regex"
+    url = "https://regex101.com/"
+    title = ""
+    weight = 5
+  [[menu.main]]
     identifier = 'filebox'
     parent='tools'
     pre = ""
